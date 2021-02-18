@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8542712936150000985
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7030303870640992591}
+  - component: {fileID: 5803130648052272118}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7030303870640992591
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8542712936150000985}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5803130648052272118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8542712936150000985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3585f919b1fb5db4cb92e469e56ab309, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: player_death
+    clip: {fileID: 8300000, guid: 25d4c9dfbd43e8c4aa23da6fb5f6f299, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: theme
+    clip: {fileID: 8300000, guid: 482c83a95bc09d944976ab71e4070bea, type: 3}
+    volume: 0.013
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: enemy_death
+    clip: {fileID: 8300000, guid: c934effc7e345aa44a9c89924c1a04a6, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: button_hover
+    clip: {fileID: 8300000, guid: 5c19ca0355dbf5242bfcb723c8114585, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: button_click
+    clip: {fileID: 8300000, guid: 5d96836cb6cf2724485c72159aac812a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: footstep
+    clip: {fileID: 8300000, guid: 0daf2b2a8b119b042a3b83fa66ac98e8, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: bone_crack
+    clip: {fileID: 8300000, guid: d47c39f43e096a14ca3ef48112e10b84, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: new_hint
+    clip: {fileID: 8300000, guid: 55453e661e5edde45a194cafd482ade2, type: 3}
+    volume: 0.454
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: done_hint
+    clip: {fileID: 8300000, guid: e137c62393ee6dd41b868ac0d3ab6055, type: 3}
+    volume: 0.28
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: convo_out
+    clip: {fileID: 8300000, guid: 76b87f0aaf15ac246b392c6c0d3caf48, type: 3}
+    volume: 0.168
+    pitch: 0.72
+    loop: 0
+    source: {fileID: 0}
+  - name: typing
+    clip: {fileID: 8300000, guid: f7c97bf5efb0d264fbd22f9545a548c5, type: 3}
+    volume: 0.527
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  output: {fileID: 0}
